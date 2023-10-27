@@ -1,0 +1,10 @@
+AM_CPPFLAGS = $(ARKIVARIUM_CFLAGS)
+AM_CFLAGS = $(ARKIVARIUM_CFLAGS)
+AM_LDFLAGS = $(ARKIVARIUM_LIBS)
+
+bin_PROGRAMS = nikita-gtk
+
+nikita_gtk_SOURCES = nikita-gtk.c
+
+nikita_gtk_CFLAGS = $(ARKIVARIUM_CFLAGS)
+nikita_gtk_LDADD = $(ARKIVARIUM_LIBS)
